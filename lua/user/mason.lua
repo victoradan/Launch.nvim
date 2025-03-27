@@ -12,7 +12,7 @@ function M.config()
     "html",
     "ts_ls",
     "pyright",
---    "black",
+    "csharp_ls",
     "hls",
     "bashls",
     "jsonls",
