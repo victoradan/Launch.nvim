@@ -68,6 +68,7 @@ function M.config()
     "lua_ls",
     "cssls",
     "hls",
+    "csharp_ls",
     "html",
     "ts_ls",
     "eslint",
