@@ -21,7 +21,7 @@ function M.config()
       formatting.csharpier,
       -- formatting.eslint,
       -- Python --
-      formatting.black,
+      formatting.black.with({extra_args = { "--line-length", "120" }}),
       formatting.isort,
       -- formatting.pyflyby,
       -- diagnostics.vulture,
