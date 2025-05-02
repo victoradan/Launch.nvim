@@ -50,6 +50,10 @@ First we'll fix copy/paste
 - On Ubuntu
 
   ```sh
+  sudo apt install xclip 
+  ```
+  or
+  ```sh
   sudo apt install xsel # for X11
   sudo apt install wl-clipboard # for wayland
   ```
