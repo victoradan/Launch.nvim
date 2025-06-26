@@ -23,6 +23,8 @@ function M.config()
       -- Python --
       formatting.black.with({extra_args = { "--line-length", "120" }}),
       formatting.isort,
+      -- diagnostics.pylint,
+      -- diagnostics.ruff,
       -- formatting.pyflyby,
       -- diagnostics.vulture,
       -- formatting.reorder_python_imports,
